@@ -8,6 +8,8 @@ DEBUG = True
 
 # Connect to the database
 
+print("///////////////////////configuración cargada!!")
 
-# TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = '<Put your local database url>'
+# DONE IMPLEMENT DATABASE URL
+SQLALCHEMY_DATABASE_URI = 'postgresql://Alejandro:ghostrider87@localhost:5433/fyyur_db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
